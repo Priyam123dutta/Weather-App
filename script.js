@@ -47,6 +47,7 @@ const checkWeather = async (city) => {
             break;
     }
 
+    locationNotFound.style.display = "none";
     weatherReport.style.display = "flex"; 
 }
 
