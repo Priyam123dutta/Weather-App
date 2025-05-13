@@ -1,8 +1,8 @@
 const cityName = document.getElementById("cityName");
 const search = document.getElementById("search");
-const locationNotFound = document.getElementsByClassName("locationNOtFound");
+const locationNotFound = document.querySelector(".locationNotFound");
 const weatherReport = document.getElementById("weatherReport");
-const weatherImage = document.getElementsByClassName("weatherImage");
+const weatherImage = document.querySelector(".weatherImage");
 const temperature = document.querySelector(".weatherInfo h1");
 const weatherText = document.querySelector(".weatherInfo p");
 const humidity = document.getElementById("percent");
@@ -14,8 +14,10 @@ const checkWeather = async (city) => {
 
     const weatherData = await fetch(`${url}`)
     .then ((response) => {
-        response.json();
+        return response.json();
     })
+
+    console.log(weatherData);
 
     if (weatherData.cod === "404") {
         console.log("Error Location");
@@ -33,7 +35,7 @@ const checkWeather = async (city) => {
         case 'Clear':
             weatherImage.src = "Assets/clear.png";
             break;
-        case 'Cloud':
+        case 'Clouds':
             weatherImage.src = "Assets/cloud.png";
             break;
         case 'Mist':
