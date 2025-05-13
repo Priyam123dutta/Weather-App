@@ -20,8 +20,6 @@ Feel free to check it out, try it with different cities, and share your feedback
 - **JavaScript** – For logic, API integration, and DOM manipulation  
 - **OpenWeatherMap API** – For fetching real-time weather data
 
----
-
 ## Project Writeup
 
 This project helped me learn and practice key JavaScript concepts like:
