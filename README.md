@@ -9,7 +9,7 @@ Feel free to check it out, try it with different cities, and share your feedback
 
 ## How to Use
 
-- Go to the link: 
+- Go to the link: `https://priyam123dutta.github.io/Weather-App/`
 - Type the name of a city and hit the search button.
 - The app will show the **temperature**, **weather condition**, **humidity**, and **wind speed**.
 - If the city name is incorrect or not found, it will display an error message.
