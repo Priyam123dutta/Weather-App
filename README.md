@@ -5,7 +5,6 @@ Hello everyone! I'm learning **Web Development**, andcurrently I am working with
 This app allows you to check the current weather of any city. It’s a simple project focusing mainly on **JavaScript API handling**.
 
 Feel free to check it out, try it with different cities, and share your feedback!
----
 
 ## How to Use
 
@@ -13,8 +12,6 @@ Feel free to check it out, try it with different cities, and share your feedback
 - Type the name of a city and hit the search button.
 - The app will show the **temperature**, **weather condition**, **humidity**, and **wind speed**.
 - If the city name is incorrect or not found, it will display an error message.
-
----
 
 ## Technologies Used
 
