@@ -9,12 +9,17 @@
 <body>
     <div class="container">
         <div class="searchBox">
-            <input type="text" placeholder="Enter the City Name">
+            <input type="text" id="cityName" placeholder="Enter Location">
             <button id="search" class="fa-solid fa-magnifying-glass"></button>
         </div>
 
-        <div class="weatherReport">
-            <div class="weatherImage"></div>
+        <div class="locationNotFound">
+            <h1>Sorry Location Not Found</h1>
+            <img src="Assets/404.png" alt="">
+        </div>
+
+        <div id="weatherReport">
+            <img class="weatherImage"></img>
 
             <div class="weatherInfo">
                 <h1></h1>
@@ -25,7 +30,7 @@
                 <div class="info humidity">
                     <div class="img fa-solid fa-droplet"></div>
                     <div class="text">
-                        <div class="percent"></div>
+                        <div id="percent"></div>
                         <div class="title">Humidity</div>
                     </div>
                 </div>
@@ -33,7 +38,7 @@
                 <div class="info windspeed">
                     <div class="img fa-solid fa-wind"></div>
                     <div class="text">
-                        <div class="speed"></div>
+                        <div id="wSpeed"></div>
                         <div class="title">Wind Speed</div>
                     </div>
                 </div>
